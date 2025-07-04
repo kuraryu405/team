@@ -15,22 +15,26 @@ header {
 
 .header-top {
     display: flex;
-    align-items: left;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     max-width: 900px;
     margin: 0 auto;
     padding: 0 16px;
+    height: 60px;
 }
 
-.logo-text h1 {
+
+
+.logo-text {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     font-size: 2rem;
-    margin: 0;
-    color: #2d6cdf;
-}
-
-.logo-img img {
-    height: 48px;
-    align-items: left;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-align: center;
+    flex: none;
 }
 
 main {
