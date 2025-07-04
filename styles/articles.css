@@ -24,8 +24,6 @@ header {
     height: 60px;
 }
 
-
-
 .logo-text {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
     font-size: 2rem;
@@ -38,9 +36,11 @@ header {
 }
 
 main {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin-left: 40px;
+    margin-right: 0;
     padding: 0 16px 48px 16px;
+    text-align: left;
 }
 
 .article-conteiner {
@@ -49,6 +49,9 @@ main {
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     padding: 32px 24px;
     margin-bottom: 32px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .thumbnail-img img {
@@ -57,6 +60,8 @@ main {
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 24px;
+    display: block;
+    margin-left: 0;
 }
 
 .article-header {
@@ -64,18 +69,23 @@ main {
     align-items: center;
     margin-bottom: 24px;
     gap: 24px;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .title {
     font-size: 2rem;
     font-weight: bold;
     margin: 0 0 8px 0;
+    text-align: left;
 }
 
 .author-info {
     display: flex;
     align-items: center;
     gap: 12px;
+    justify-content: flex-start;
+    text-align: left;
 }
 
 .author-info img {
@@ -88,22 +98,26 @@ main {
 .author-details {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .author-name {
     font-weight: bold;
     margin: 0;
+    text-align: left;
 }
 
 .description {
     font-size: 0.95rem;
     color: #666;
     margin: 0;
+    text-align: left;
 }
 
 .sentence {
     line-height: 1.9;
     font-size: 1.1rem;
+    text-align: left;
 }
 
 .sentence h2 {
@@ -113,8 +127,10 @@ main {
     border-left: 4px solid #2d6cdf;
     padding-left: 12px;
     background: #f3f7fd;
+    text-align: left;
 }
 
 .sentence p {
     margin: 0 0 16px 0;
+    text-align: left;
 }
