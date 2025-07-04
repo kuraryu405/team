@@ -1,3 +1,7 @@
+header {
+  position: relative;
+}
+
 .logo-text{
     text-align: center;
 }
@@ -94,7 +98,7 @@
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   top: 60px; left: 20px; bottom: 0;
   width: 250px;
   background: #fff;
@@ -114,7 +118,7 @@ nav .inner ul li a {
 nav .inner ul li a:hover { background: #e4e4e4; }
 
 .toggle-btn {
-  position: fixed;
+  position: absolute;
   top: 20px; left: 20px;
   width: 30px; height: 30px;
   z-index: 4;
