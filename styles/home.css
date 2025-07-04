@@ -99,7 +99,7 @@ header {
 
 nav {
   position: absolute;
-  top: 60px; left: 20px; bottom: 0;
+  top: 60px; left: 20px;
   width: 250px;
   background: #fff;
   opacity: 0;
