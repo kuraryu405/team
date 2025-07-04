@@ -6,3 +6,20 @@ body {
     padding: 0;
 }
 
+header {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 16px 0;
+    margin-bottom: 32px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
